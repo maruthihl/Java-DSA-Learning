@@ -8,7 +8,7 @@ public class RemoveDuplicateInString
     public static String removeDuplicates(String input) 
     {
 
-        String remove = "";
+        
         LinkedHashSet<Character> set = new LinkedHashSet<>();
         for (char c : input.toCharArray()) {
             set.add(c);
